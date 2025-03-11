@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<section>
+    <form action="http://localhost:8080/auth/sign-up" method="POST">
+
+        <div>
+            <label for="user-name">Username:</label>
+            <input type="text"
+                   id="user-name"
+                   name="username"
+                   placeholder="Username"
+                   required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Email"
+                   required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password"
+                   id="password"
+                   name="password"
+                   placeholder="Password"
+                   required>
+        </div>
+
+        <br>
+
+        <div>
+            <p>Choose your Gender:</p>
+            <label for="genderMale">Male:</label>
+            <input type="radio"
+                   id="genderMale"
+                   name="gender"
+                   value="male"
+                   required>
+            <br>
+
+            <label for="genderFemale">Female</label>
+            <input type="radio"
+                   id="genderFemale"
+                   name="gender"
+                   value="female"
+                   required>
+            <br>
+
+            <label for="genderOther">Other:</label>
+            <input type="radio"
+                   id="genderOther"
+                   name="gender"
+                   value="other"
+                   required>
+            <br>
+
+            <label for="javaDeveloper">Java Developer:</label>
+            <input type="radio"
+                   id="javaDeveloper"
+                   name="gender"
+                   value="javaDeveloper"
+                   required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country" required>
+                <option value="UA">Ukraine</option>
+                <option value="DE">Germany</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number"
+                   placeholder="Age"
+                   id="age"
+                   min="18"
+                   max="100"
+                   required
+                   name="age">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date"
+                   id="dob"
+                   name="dob"
+                   required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="hidden"
+                   id="hiddenInput"
+                   name="hiddenInput"
+                   value="This is a hidden value.">
+        </div>
+
+        <br>
+        <div>
+            <label for="bio">Short Bio:</label>
+            <textarea id="bio"
+                      name="bio"
+                      rows="4"
+                      cols="50"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</section>
+</body>
+</html>
