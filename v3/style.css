@@ -1,0 +1,152 @@
+/*Стилі трохи у вас піддивився (таблицю), трохи в інтернеті знайшов.
+Саме більше довбався з палітрою кольрів, але на щастя знайшов цей сайт: https://www.shecodes.io/palettes/green/color*/
+
+html, body {
+    font-family: TimesNewRoman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: block;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background-color: #42b883;
+    padding: 20px;
+}
+
+.profile-image {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.navbar {
+    background-color: #347474;
+    padding: 10px;
+    margin: 0;
+    display: block;
+}
+
+.nav-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-ul-item {
+    margin-left: 10px;
+}
+
+.nav-ul-item-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+.education-table th {
+    background-color: #347474;
+    color: white;
+}
+
+.education-table th, .education-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table, .education-table th, .education-table td {
+    border: 1px solid #ddd;
+}
+
+#contact {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#education {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#about {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#experience {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#skills {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#projects {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#languages {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.footer {
+    display: block;
+    background: #347474;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
