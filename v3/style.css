@@ -1,6 +1,3 @@
-/*Стилі трохи у вас піддивився (таблицю), трохи в інтернеті знайшов.
-Саме більше довбався з палітрою кольрів, але на щастя знайшов цей сайт: https://www.shecodes.io/palettes/green/color*/
-
 html, body {
     font-family: TimesNewRoman, sans-serif;
     margin: 0;
@@ -16,6 +13,18 @@ html, body {
     padding: 20px;
 }
 
+.main {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+@media (max-width: 800px) {
+    .main {
+        width: 95%;
+    }
+}
+
 .profile-image {
     border-radius: 100px;
     width: 200px;
@@ -29,12 +38,21 @@ html, body {
     display: block;
 }
 
+
 .nav-ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
     padding: 0;
+}
+
+@media (max-width: 800px) {
+    .nav-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .nav-ul-item {
@@ -45,12 +63,6 @@ html, body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-
-.main {
-    display: block;
-    width: 80%;
-    margin: 20px auto;
 }
 
 .education-table {
@@ -87,6 +99,8 @@ html, body {
 }
 
 #about-video {
+    width: 100%;
+    max-width: 800px;
     border-radius: 10px;
     background-color: black;
     align-self: center;
