@@ -30,6 +30,9 @@ html, body {
 }
 
 .nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     list-style: none;
     padding: 0;
 }
@@ -50,6 +53,9 @@ html, body {
     margin: 20px auto;
 }
 
+.education-table {
+    width: 100%;
+}
 
 .education-table th {
     background-color: #347474;
@@ -72,6 +78,20 @@ html, body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#about-video {
+    border-radius: 10px;
+    background-color: black;
+    align-self: center;
+}
+
 .footer {
     background: #347474;
     padding: 10px;
