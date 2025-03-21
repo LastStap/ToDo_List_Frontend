@@ -1,3 +1,5 @@
+"use strict";
+
 let ready = confirm("Are you ready?");
 while (!ready) {
     alert("You must be ready to play!");
