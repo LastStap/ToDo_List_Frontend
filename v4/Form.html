@@ -10,33 +10,33 @@
 
         <div>
             <label for="user-name">Username:</label>
-            <input type="text"
-                   id="user-name"
+            <input id="user-name"
                    name="username"
                    placeholder="Username"
-                   required>
+                   required
+                   type="text">
         </div>
 
         <br>
 
         <div>
             <label for="email">Email:</label>
-            <input type="email"
-                   id="email"
+            <input id="email"
                    name="email"
                    placeholder="Email"
-                   required>
+                   required
+                   type="email">
         </div>
 
         <br>
 
         <div>
             <label for="password">Password:</label>
-            <input type="password"
-                   id="password"
+            <input id="password"
                    name="password"
                    placeholder="Password"
-                   required>
+                   required
+                   type="password">
         </div>
 
         <br>
@@ -44,42 +44,42 @@
         <div>
             <p>Choose your Gender:</p>
             <label for="genderMale">Male:</label>
-            <input type="radio"
-                   id="genderMale"
+            <input id="genderMale"
                    name="gender"
-                   value="male"
-                   required>
+                   required
+                   type="radio"
+                   value="male">
             <br>
 
             <label for="genderFemale">Female</label>
-            <input type="radio"
-                   id="genderFemale"
+            <input id="genderFemale"
                    name="gender"
-                   value="female"
-                   required>
+                   required
+                   type="radio"
+                   value="female">
             <br>
 
             <label for="genderOther">Other:</label>
-            <input type="radio"
-                   id="genderOther"
+            <input id="genderOther"
                    name="gender"
-                   value="other"
-                   required>
+                   required
+                   type="radio"
+                   value="other">
             <br>
 
             <label for="javaDeveloper">Java Developer:</label>
-            <input type="radio"
-                   id="javaDeveloper"
+            <input id="javaDeveloper"
                    name="gender"
-                   value="javaDeveloper"
-                   required>
+                   required
+                   type="radio"
+                   value="javaDeveloper">
         </div>
 
         <br>
 
         <div>
             <label for="country">Country:</label>
-            <select name="country" id="country" required>
+            <select id="country" name="country" required>
                 <option value="UA">Ukraine</option>
                 <option value="DE">Germany</option>
             </select>
@@ -89,41 +89,41 @@
 
         <div>
             <label for="age">Age:</label>
-            <input type="number"
-                   placeholder="Age"
-                   id="age"
-                   min="18"
+            <input id="age"
                    max="100"
+                   min="18"
+                   name="age"
+                   placeholder="Age"
                    required
-                   name="age">
+                   type="number">
         </div>
 
         <br>
 
         <div>
             <label for="dob">Date of Birth:</label>
-            <input type="date"
-                   id="dob"
+            <input id="dob"
                    name="dob"
-                   required>
+                   required
+                   type="date">
         </div>
 
         <br>
 
         <div>
-            <input type="hidden"
-                   id="hiddenInput"
+            <input id="hiddenInput"
                    name="hiddenInput"
+                   type="hidden"
                    value="This is a hidden value.">
         </div>
 
         <br>
         <div>
             <label for="bio">Short Bio:</label>
-            <textarea id="bio"
+            <textarea cols="50"
+                      id="bio"
                       name="bio"
-                      rows="4"
-                      cols="50"></textarea>
+                      rows="4"></textarea>
         </div>
 
         <br>
